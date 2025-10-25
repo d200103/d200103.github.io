@@ -30,7 +30,7 @@ author:
   location         : "黑龙江省哈尔滨市"
   employer         : "哈尔滨工业大学"
   uri              : # URL
-  email            : "dingcx01@qq.com" 
+  email            : # "dingcx01@qq.com" 
 
   # Academic websites
   academia         : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/d200103"
+  github           : # "https://github.com/d200103"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
