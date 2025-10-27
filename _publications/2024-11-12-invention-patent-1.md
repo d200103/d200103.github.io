@@ -2,13 +2,13 @@
 title: "一种基于神经网络的印章识别系统及识别方法"
 collection: publications
 category: patent
-permalink: /_publications/2024-11-12-invention-patent-1.md
+permalink: https:/d200103.github.io/_publications/2024-11-12-invention-patent-1.md
 excerpt: '发明专利：一种基于神经网络的印章识别系统及识别方法'
 date: 2024-11-12
 venue: 'November 12'
-# certificateurl: 'https://academicpages.github.io/images/2022105125262-发明专利证书-一种基于神经网络的印章识别系统及识别方法.pdf'
-# paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-# bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
+# certificateurl: 'https://d200103.github.io/images/2022105125262-发明专利证书-一种基于神经网络的印章识别系统及识别方法.pdf'
+# paperurl: 'https://d200103.github.io/files/paper1.pdf'
+# bibtexurl: 'https://d200103.github.io/files/bibtex1.bib'
 citation: '刘海龙, 胡鹏, 章铉, 丁程雄, 尹浩权, 郭志昌. 一种基于神经网络的印章识别系统及识别方法: 黑龙江省, CN114998646B[P]. 2024-11-12.'
 ---
 
