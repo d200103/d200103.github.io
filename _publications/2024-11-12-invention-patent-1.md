@@ -2,7 +2,7 @@
 title: "一种基于神经网络的印章识别系统及识别方法"
 collection: publications
 category: patent
-permalink: /publications/2024-11-12-invention-patent-1
+permalink: https://d200103.github.io/publications/2024-11-12-invention-patent-1
 excerpt: '发明专利：一种基于神经网络的印章识别系统及识别方法'
 date: 2024-11-12
 venue: 'November 12'
