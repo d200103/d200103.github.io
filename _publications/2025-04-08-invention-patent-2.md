@@ -2,7 +2,7 @@
 title: "基于快速低秩预测的非规则网格高维地震数据重构方法"
 collection: publications
 category: patent
-permalink: /_publications/2025-04-08-invention-patent-2.md
+permalink: /_publications/2025-04-08-invention-patent-2
 excerpt: '发明专利：基于快速低秩预测的非规则网格高维地震数据重构方法'
 date: 2025-04-08
 venue: 'April 08'
