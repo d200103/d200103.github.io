@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2024-11-12-invention-patent
 excerpt: '发明专利：一种基于神经网络的印章识别系统及识别方法'
 date: 2024-11-12
-venue: 'Journal 1'
+venue: 'November 12'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'https://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
