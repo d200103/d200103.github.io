@@ -26,12 +26,30 @@ redirect_from:
   * 职责：助教 (暑期学校)
   * 课程：数学与人工智能
   * 时间: 2025.07.13——2025.07.26
-  
+  ——————————————————————————————
   * 职责：助教
   * 课程：压缩感知
   * 时间: 2025.09.20——2025.12.01
-
+  ——————————————————————————————
   * 职责：助教
   * 课程：常微分方程（中外合作）
   * 时间: 2025.10.10——2025.12.19
+  ——————————————————————————————
     
+  Publications
+  ======
+    <ul>{% for post in site.publications reversed %}
+      {% include archive-single-cv.html %}
+    {% endfor %}</ul>
+  
+  Talks
+  ======
+    <ul>{% for post in site.talks reversed %}
+      {% include archive-single-talk-cv.html  %}
+    {% endfor %}</ul>
+  
+  # Teaching
+  # ======
+  #   <ul>{% for post in site.teaching reversed %}
+  #     {% include archive-single-cv.html %}
+  #   {% endfor %}</ul>
