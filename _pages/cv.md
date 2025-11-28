@@ -9,56 +9,29 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育经历 （Education）
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2023.09.01——now        哈尔滨工业大学数学学院 数学          博士在读研究生(硕博连读)
+* 2019.08.15——2023.06.10 哈尔滨工业大学数学学院 信息与计算科学 学士
 
-Work experience
+工作经历 （Work experience）
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2024: 
+  * 职责：助教
+  * 课程：压缩感知
+  * 时间: 2024.10.28——2024.12.08
+  * 优秀助教
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2025:
+  * 职责：助教 (暑期学校)
+  * 课程：数学与人工智能
+  * 时间: 2025.07.13——2025.07.26
+  
+  * 职责：助教
+  * 课程：压缩感知
+  * 时间: 2025.09.20——2025.12.01
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  * 职责：助教
+  * 课程：常微分方程（中外合作）
+  * 时间: 2025.10.10——2025.12.19
+    
