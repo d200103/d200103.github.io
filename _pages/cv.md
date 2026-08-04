@@ -20,21 +20,21 @@ redirect_from:
 * 2024: 
   * 职责：助教
   * 课程：压缩感知
-  * 时间: 2024.10.28——2024.12.08
+  * 时间：2024.10.28——2024.12.08
   * 优秀助教
 
 * 2025:
   * 职责：助教 (暑期学校)
   * 课程：数学与人工智能
-  * 时间: 2025.07.13——2025.07.26
+  * 时间：2025.07.13——2025.07.26
   
   * 职责：助教
   * 课程：压缩感知
-  * 时间: 2025.09.20——2025.12.01
+  * 时间：2025.09.20——2025.12.01
 
   * 职责：助教
   * 课程：常微分方程（中外合作）
-  * 时间: 2025.10.10——2025.12.19
+  * 时间：2025.10.10——2025.12.19
   
 * 2026:
   * 职责：助教
@@ -44,20 +44,20 @@ redirect_from:
 论文与专利（Publications）
 ======
 {% for category in site.publication_category %}
-  {% assign category_posts = site.publications | where: "category", category[0] %}
+{% assign category_posts = site.publications | where: "category", category[0] %}
+{% if category_posts.size > 0 %}
 
-  {% if category_posts.size > 0 %}
-    <h2>{{ category[1].title }}</h2><hr />
+<h2>{{ category[1].title }}</h2>
+<hr />
 
-    {% assign item_number = 0 %}
-    {% for post in category_posts reversed %}
-      {% assign item_number = item_number | plus: 1 %}
+{% assign item_number = 0 %}
+{% for post in category_posts reversed %}
+{% assign item_number = item_number | plus: 1 %}
 
-      <p class="archive__item-excerpt publication-list-item">
-        [{{ item_number }}] {{ post.citation }}
-      </p>
-    {% endfor %}
-  {% endif %}
+<p class="archive__item-excerpt publication-list-item">[{{ item_number }}] {{ post.citation }}</p>
+
+{% endfor %}
+{% endif %}
 {% endfor %}
   
 会议（Talks）
