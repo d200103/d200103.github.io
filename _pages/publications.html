@@ -27,14 +27,14 @@ author_profile: true
 
       {% assign item_number = item_number | plus: 1 %}
       {% if category[0] == "patent" %}
-        <p class="archive__item-excerpt">
+        <p class="archive__item-excerpt publication-list-item">
           <a class="publication-patent-link" href="{{ base_path }}{{ post.url }}">
             [{{ item_number }}] {{ post.citation }}
           </a>
         </p>
 
       {% elsif category[0] == "conferences" %}
-        <p class="archive__item-excerpt">
+        <p class="archive__item-excerpt publication-list-item">
           {% if post.link %}
             <a class="publication-patent-link" href="{{ post.link }}">
               [{{ item_number }}] {{ post.citation }}

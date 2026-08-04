@@ -66,6 +66,10 @@
   }
 }
 
+.archive .publication-list-item {
+  font-size: 0.875em; // 大约 16px
+}
+
 .archive .publication-patent-link {
   color: var(--global-text-color);
   text-decoration: none;
