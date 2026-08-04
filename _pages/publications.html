@@ -15,6 +15,7 @@ author_profile: true
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
+    {% assign item_number = 0 %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
@@ -23,7 +24,17 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+
+      {% assign item_number = item_number | plus: 1 %}
+      {% if category[0] == "patent" %}
+        <p class="archive__item-excerpt">
+          <a href="{{ base_path }}{{ post.url }}">
+            [{{ item_number }}] {{ post.citation }}
+          </a>
+        </p>
+      {% else %}
+        {% include archive-single.html %}
+      {% endif %}
     {% endfor %}
   {% endfor %}
 {% else %}
