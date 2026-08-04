@@ -66,6 +66,22 @@
   }
 }
 
+.archive .publication-patent-link {
+  color: var(--global-text-color);
+  text-decoration: none;
+
+  &:visited,
+  &:hover,
+  &:active {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

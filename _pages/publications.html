@@ -28,8 +28,26 @@ author_profile: true
       {% assign item_number = item_number | plus: 1 %}
       {% if category[0] == "patent" %}
         <p class="archive__item-excerpt">
-          <a href="{{ base_path }}{{ post.url }}">
+          <a class="publication-patent-link" href="{{ base_path }}{{ post.url }}">
             [{{ item_number }}] {{ post.citation }}
+          </a>
+        </p>
+
+      {% elsif category[0] == "conferences" %}
+        <p class="archive__item-excerpt">
+          {% if post.link %}
+            <a class="publication-patent-link" href="{{ post.link }}">
+              [{{ item_number }}] {{ post.citation }}
+            </a>
+          {% else %}
+            <a class="publication-patent-link" href="{{ base_path }}{{ post.url }}">
+              [{{ item_number }}] {{ post.citation }}
+            </a>
+          {% endif %}
+
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+            <i class="fa fa-link" aria-hidden="true" title="Permalink"></i>
+            <span class="sr-only">Permalink</span>
           </a>
         </p>
       {% else %}
@@ -42,6 +60,5 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
 
 
